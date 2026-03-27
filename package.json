@@ -39,6 +39,7 @@
   ],
   "dependencies": {
     "chalk": "^4.1.2",
+    "glob": "^13.0.6",
     "swiper": "^12.1.2"
   }
 }
