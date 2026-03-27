@@ -145,7 +145,7 @@ export function images() {
         mozjpeg({ quality: 60, progressive: true }),
         imageminPngquant({
           speed: 2,
-          quality: [0.6, 0.8],
+          quality: 60-80,
           strip: true,
           dithering: 0.5,
         }),
