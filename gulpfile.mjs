@@ -48,7 +48,7 @@ export function serve() {
   browserSync.init(
     {
       server: {
-        baseDir: "src/",
+        baseDir: "./dist",
       },
       port: 9000,
       open: false,
@@ -145,7 +145,7 @@ export function images() {
         mozjpeg({ quality: 60, progressive: true }),
         imageminPngquant({
           speed: 2,
-          quality: 60-80,
+          quality: 60 - 80,
           strip: true,
           dithering: 0.5,
         }),
