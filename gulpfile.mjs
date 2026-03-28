@@ -48,7 +48,7 @@ export function serve() {
   browserSync.init(
     {
       server: {
-        baseDir: "./dist",
+        baseDir: "dist/",
       },
       port: 9000,
       open: false,
