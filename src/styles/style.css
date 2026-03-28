@@ -1295,6 +1295,22 @@ input[type="number"] {
   .calculate-table :is(tfoot) td {
     padding-top: 15px;
   }
+
+  .footer-main {
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+
+  .footer-header:not(:last-child) {
+    display: flex;
+    flex-flow: column nowrap;
+    row-gap: 30px;
+  }
+
+  .footer-body {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1413,6 +1429,23 @@ input[type="number"] {
 
   .calculate-table-wrapper::before {
     display: none;
+  }
+
+  .footer-main {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+
+  .footer-header:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .footer-body {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-subscrube-form {
+    margin-bottom: 40px;
   }
 }
 
